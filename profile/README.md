@@ -64,15 +64,15 @@ cd booker-infra && make setup
        │
    ┌───┴───┬──────────┐
    │       │          │
-┌──▼──┐ ┌─▼────┐ ┌───▼───┐
+┌──▼──┐ ┌───▼───┐ ┌───▼───┐
 │venue│ │booking│ │notify │
 │ svc │ │  svc  │ │  svc  │
-└──┬──┘ └─┬────┘ └───┬───┘
-   │      │          │
-┌──▼──┐ ┌─▼────┐ ┌──▼───┐
-│Postgres│ │Postgres│ │Kafka│
+└──┬──┘ └─┬─────┘ └───┬───┘
+   │      │            ───|
+┌───▼────┐ ┌────▼────┐ ┌──▼──┐
+│Postgres│ │Postgres │ │Kafka│
 │(venue) │ │(booking)│ │     │
-└───────┘ └───────┘ └─────┘
+└────────┘ └─────────┘ └─────┘
 ```
 
 **Технологии:** Go • gRPC • PostgreSQL • Redis • Kafka • React • Docker
@@ -122,4 +122,5 @@ make rebuild-all # Пересборка
 **Сделано Павлом Жабским(https://t.me/nekell3r)**
 
 </div>
+
 
