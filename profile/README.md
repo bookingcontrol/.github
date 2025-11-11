@@ -1,5 +1,3 @@
-<img width="1458" height="570" alt="image" src="https://github.com/user-attachments/assets/63c338b2-4deb-41d5-9956-765780d19640" />﻿# 🎯 BookingControl
-
 <div align="center">
 
 **Микросервисная система бронирования столов**
@@ -122,6 +120,7 @@ make rebuild-all # Пересборка
 **Сделано Павлом Жабским(https://t.me/nekell3r)**
 
 </div>
+
 
 
 
