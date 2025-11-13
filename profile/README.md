@@ -113,13 +113,6 @@ make rebuild-all # Пересборка
 | **Jaeger** | http://localhost:16686 |
 | **Prometheus** | http://localhost:9090 |
 
----
-
-<div align="center">
-
-**Сделано Павлом Жабским(https://t.me/nekell3r)**
-
-</div>
 
 
 
